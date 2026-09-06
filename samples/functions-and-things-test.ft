@@ -1,0 +1,44 @@
+we got a legitimate business called Enterprises
+
+we're connected to Rivals
+
+function collectDebt amount
+    increase amount by 1
+    here's your cut amount
+stop
+
+function sayHello
+    say "Hello."
+    here's your cut
+stop
+
+thing Associate
+    let respect be 0
+    let cash be 0
+
+    initiation startingCash
+        let cash be startingCash
+    stop
+
+    function collectDebt amount
+        increase yours truly's cash by amount
+        here's your cut yours truly's cash
+    stop
+stop
+
+thing Capo answers to Associate
+    let crew be 0
+
+    function collectDebt amount
+        use yours truly to do me a favor collectDebt amount
+    stop
+stop
+
+let tony be a new Associate 100
+let take be do me a favor collectDebt 50
+let take2 be use tony to do me a favor collectDebt 50
+let x be da story from ledger1 equals "nope"
+
+if tony's respect more than 3
+    say "Respected."
+stop

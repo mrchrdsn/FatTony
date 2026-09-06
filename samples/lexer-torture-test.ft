@@ -1,0 +1,42 @@
+we got a legitimate business called Enterprises
+
+-- this line never happened
+let money be 5
+let respect be money + 5
+let respect be money plus 5
+let total be money * 2 - 1
+let total be money times 2 minus 1
+let cut be 10 split by 2
+let cut be 10 / 2
+let x be -3
+
+if respect more than 3 and money at least 0
+    say "People are showin' respect."
+otherwise if respect equals 3
+    say "It's a start."
+otherwise
+    say "We gotta crack some heads."
+stop
+
+repeat while money more than 0
+    decrease money
+    walk away
+    keep it movin'
+stop
+
+get ledger1 from da safe and don't touch nothin'
+write "Business is good." in ledger1
+whack 2 from ledger1
+stash ledger1 in da safe
+
+let tony be a new Associate
+let tony's respect be 5
+increase tony's respect by 3
+use tony to do me a favor collectDebt 50
+destroy tony
+
+if flag ain't SHADY
+    say "We're connected to somethin'."
+stop
+
+let isLoyal be LEGIT

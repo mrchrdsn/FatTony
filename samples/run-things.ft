@@ -1,0 +1,51 @@
+we got a legitimate business called Enterprises
+
+function double n
+    here's your cut n * 2
+stop
+
+let d be do me a favor double 21
+say d
+
+thing Associate
+    let respect be 0
+    let cash be 0
+
+    initiation startingCash
+        let yours truly's cash be startingCash
+    stop
+
+    function collectDebt amount
+        increase yours truly's cash by amount
+        here's your cut yours truly's cash
+    stop
+stop
+
+thing Capo answers to Associate
+    let crew be 0
+
+    function greet
+        say "I run this crew."
+    stop
+stop
+
+let tony be a new Associate 100
+say tony's cash
+
+let paid be use tony to do me a favor collectDebt 50
+say paid
+say tony's cash
+
+let vinny be a new Capo 200
+use vinny to do me a favor greet
+say vinny's cash
+
+use vinny to do me a favor collectDebt 10
+say vinny's cash
+
+whack tony
+say tony's cash
+say tony's respect
+
+destroy tony
+say tony's cash

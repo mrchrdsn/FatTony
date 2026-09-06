@@ -1,0 +1,31 @@
+we got a legitimate business called Enterprises
+
+let money be 10
+let respect be 0
+
+repeat while money more than 0
+    decrease money
+    increase respect by 2
+    if respect equals 6
+        walk away
+    stop
+stop
+
+say "money is:"
+say money
+say "respect is:"
+say respect
+
+if respect more than 3 and money at least 0
+    say "Solid."
+otherwise if respect equals 3
+    say "Start."
+otherwise
+    say "Crack heads."
+stop
+
+let total be 10 * 2 - 3
+say total
+
+let x be 7 / 2
+say x

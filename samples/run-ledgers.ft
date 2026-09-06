@@ -1,0 +1,23 @@
+we got a legitimate business called Enterprises
+
+get accounts from da safe and cook da books
+write "Business is good." in accounts
+write "Trust no one." in accounts
+write "Third line." in accounts
+stash accounts in da safe
+
+get accounts from da safe
+let x be da story from accounts
+say x
+stash accounts in da safe
+
+get accounts from da safe and keep writin'
+whack 2 from accounts
+write "Replacement line." in accounts
+stash accounts in da safe
+
+get accounts from da safe
+say da story from accounts
+stash accounts in da safe
+
+burn accounts
