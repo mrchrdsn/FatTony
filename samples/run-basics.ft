@@ -28,4 +28,4 @@ let total be 10 * 2 - 3
 say total
 
 let x be 7 / 2
-say x
+say x plus " is " plus x plus " because we're only using integers. Got it?"
