@@ -1,0 +1,104 @@
+we got a legitimate business called PetCare
+
+-- ============================================================
+-- CLASS DEFINITIONS
+-- ============================================================
+
+thing Pet
+    let name be "Unnamed"
+    let hunger be 5
+    let happiness be 0
+
+    initiation name
+        let yours truly's name be name
+        let yours truly's hunger be 5
+        let yours truly's happiness be 0
+    stop
+
+    function feed amount
+        decrease yours truly's hunger by amount
+        increase yours truly's happiness
+        say yours truly's name plus " enjoyed a meal of size " plus amount
+        here's your cut yours truly's happiness
+    stop
+stop
+
+thing Dog answers to Pet
+    let energy be 3
+
+    initiation name, startingEnergy
+        let yours truly's name be name
+        let yours truly's hunger be 5
+        let yours truly's happiness be 0
+        let yours truly's energy be startingEnergy
+    stop
+
+    function play minutes
+        --say yours truly's name plus " is playing fetch for " plus minutes plus " minutes."
+        decrease yours truly's energy by minutes
+        increase yours truly's happiness by 2
+    stop
+stop
+
+-- ============================================================
+-- MAIN PROGRAM
+-- ============================================================
+
+say "=== MORNING PET ROUTINE ==="
+
+let bella be a new Dog "Bella", 5
+let whiskers be a new Pet "Whiskers"
+
+-- Feeding routine
+let bellaMood be use bella to do me a favor feed 2
+let whiskerMood be use whiskers to do me a favor feed 1
+
+-- Playtime
+use bella to do me a favor play 1
+
+-- ============================================================
+-- LEDGER: Daily Log
+-- ============================================================
+
+get dailyLog from da safe and cook da books
+
+write "--- PET CARE LOG ---" in dailyLog
+write "Bella's happiness: " plus bella's happiness in dailyLog
+write "Whiskers' happiness: " plus whiskers's happiness in dailyLog
+
+stash dailyLog in da safe
+
+-- ============================================================
+-- AUDIT LOG
+-- ============================================================
+
+get dailyLog from da safe and don't touch nothin'
+let report be da story from dailyLog
+say "=== DAILY REPORT ==="
+say report
+stash dailyLog in da safe
+
+-- ============================================================
+-- CONDITION CHECK
+-- ============================================================
+
+say "=== PET STATUS CHECK ==="
+
+if bella's happiness at least 3 and whiskers's happiness at least 1
+    say "All pets are happy today!"
+otherwise if bella's happiness at least 2
+    say "Bella is happy, but Whiskers needs attention."
+otherwise
+    say "We need to give the pets more care."
+stop
+
+-- ============================================================
+-- CLEANUP
+-- ============================================================
+
+say "=== END OF DAY CLEANUP ==="
+whack whiskers's hunger
+destroy bella
+take out da trash
+
+say "=== ROUTINE COMPLETE ==="
