@@ -1,7 +1,5 @@
 we got a legitimate business called Enterprises
 
-we're connected to Rivals
-
 function collectDebt amount
     increase amount by 1
     here's your cut amount
@@ -41,4 +39,6 @@ let x be da story from ledger1 equals "nope"
 
 if tony's respect more than 3
     say "Respected."
+otherwise
+    say "Tony needs more respect."
 stop
